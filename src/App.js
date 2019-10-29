@@ -42,11 +42,11 @@ class App extends React.Component {
       day: day
     })
   }
-
+  
   async componentDidMount(){
     await axios({
       method: 'get',
-      url: 'https://api.openuv.io/api/v1/uv?lat=-21.788420&lng=-46.562720',
+      url: 'https://api.openuv.io/api/v1/uv?lat=-21.788857&lng=-46.561738',
       headers: {
         'x-access-token': 'd4e3f115fe835eceb4bd093a40f6dd52'
       }
