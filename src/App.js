@@ -30,7 +30,6 @@ class App extends React.Component {
     if((time > 15 && time < 19) || (time > 4 && time < 10)){
       bg[0] = '#e96443';
       bg[1] = '#904e95';
-
     }
 
     if((time >= 19) || (time >= 0 && time < 4)){
@@ -44,6 +43,7 @@ class App extends React.Component {
   }
 
   async componentDidMount(){
+   
     await axios({
       method: 'get',
       url: 'https://api.openuv.io/api/v1/uv?lat=-21.788857&lng=-46.561738',
@@ -53,6 +53,7 @@ class App extends React.Component {
     })
       .then(response => {
         //console.log(response)
+        console.log('Call made from OpenUV');
         this.setState({
           UV: response.data.result.uv,
           safeExposureTime: response.data.result.safe_exposure_time.st1
@@ -60,6 +61,20 @@ class App extends React.Component {
       })
       .catch(e => {
         console.log(e)
+        axios({
+          method: 'get',
+          url: 'http://api.openweathermap.org/data/2.5/uvi?appid=6bcd0eba4e6df52cd7f4063ec2be86ae&lat=-21.788857&lon=-46.561738',
+        })
+          .then(response => {
+            //console.log(response)
+            console.log('Call made from OpenWeather');
+            this.setState({
+              UV: response.data.value,
+            })
+          })
+          .catch(e => {
+            console.log(e)
+          })
       })
   }
 
