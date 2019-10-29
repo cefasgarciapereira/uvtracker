@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/uvtracker/static/css/main.b0f69371.chunk.css",
-    "main.js": "/uvtracker/static/js/main.cc52ff5b.chunk.js",
-    "main.js.map": "/uvtracker/static/js/main.cc52ff5b.chunk.js.map",
-    "runtime-main.js": "/uvtracker/static/js/runtime-main.f3611a47.js",
-    "runtime-main.js.map": "/uvtracker/static/js/runtime-main.f3611a47.js.map",
-    "static/js/2.86a589cc.chunk.js": "/uvtracker/static/js/2.86a589cc.chunk.js",
-    "static/js/2.86a589cc.chunk.js.map": "/uvtracker/static/js/2.86a589cc.chunk.js.map",
-    "index.html": "/uvtracker/index.html",
-    "precache-manifest.4cb6d990928aac21aff300eca15143f7.js": "/uvtracker/precache-manifest.4cb6d990928aac21aff300eca15143f7.js",
-    "service-worker.js": "/uvtracker/service-worker.js",
-    "static/css/main.b0f69371.chunk.css.map": "/uvtracker/static/css/main.b0f69371.chunk.css.map"
+    "main.css": "/uvtracker/app/static/css/main.b0f69371.chunk.css",
+    "main.js": "/uvtracker/app/static/js/main.cc52ff5b.chunk.js",
+    "main.js.map": "/uvtracker/app/static/js/main.cc52ff5b.chunk.js.map",
+    "runtime-main.js": "/uvtracker/app/static/js/runtime-main.0295d520.js",
+    "runtime-main.js.map": "/uvtracker/app/static/js/runtime-main.0295d520.js.map",
+    "static/js/2.86a589cc.chunk.js": "/uvtracker/app/static/js/2.86a589cc.chunk.js",
+    "static/js/2.86a589cc.chunk.js.map": "/uvtracker/app/static/js/2.86a589cc.chunk.js.map",
+    "index.html": "/uvtracker/app/index.html",
+    "precache-manifest.7cfcd3f9ec341eca8cf579e109baf2a4.js": "/uvtracker/app/precache-manifest.7cfcd3f9ec341eca8cf579e109baf2a4.js",
+    "service-worker.js": "/uvtracker/app/service-worker.js",
+    "static/css/main.b0f69371.chunk.css.map": "/uvtracker/app/static/css/main.b0f69371.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.f3611a47.js",
+    "static/js/runtime-main.0295d520.js",
     "static/js/2.86a589cc.chunk.js",
     "static/css/main.b0f69371.chunk.css",
     "static/js/main.cc52ff5b.chunk.js"
