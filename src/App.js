@@ -71,6 +71,7 @@ class App extends React.Component {
             console.log('Call made from OpenWeather');
             this.setState({
               UV: response.data.value,
+              safeExposureTime: 'Now we are using OpenWeather which may be a little imprecise.'
             })
           })
           .catch(e => {
@@ -119,6 +120,9 @@ class App extends React.Component {
 
     if(minutes > 1)
       return "You can be safely exposed for "+minutes+" minutes.";
+    
+      if(minutes != null) 
+        return this.state.safeExposureTime;
   }
 
   render (){
