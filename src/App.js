@@ -52,7 +52,7 @@ class App extends React.Component {
       }
     })
       .then(response => {
-        console.log(response)
+        //console.log(response)
         this.setState({
           UV: response.data.result.uv,
           safeExposureTime: response.data.result.safe_exposure_time.st1
