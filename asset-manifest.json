@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/myapp/static/css/main.b0f69371.chunk.css",
-    "main.js": "/myapp/static/js/main.cc52ff5b.chunk.js",
-    "main.js.map": "/myapp/static/js/main.cc52ff5b.chunk.js.map",
-    "runtime-main.js": "/myapp/static/js/runtime-main.7134332c.js",
-    "runtime-main.js.map": "/myapp/static/js/runtime-main.7134332c.js.map",
-    "static/js/2.86a589cc.chunk.js": "/myapp/static/js/2.86a589cc.chunk.js",
-    "static/js/2.86a589cc.chunk.js.map": "/myapp/static/js/2.86a589cc.chunk.js.map",
-    "index.html": "/myapp/index.html",
-    "precache-manifest.27fccb863e21d9da9e9727f24ea11f01.js": "/myapp/precache-manifest.27fccb863e21d9da9e9727f24ea11f01.js",
-    "service-worker.js": "/myapp/service-worker.js",
-    "static/css/main.b0f69371.chunk.css.map": "/myapp/static/css/main.b0f69371.chunk.css.map"
+    "main.css": "/uvtracker/static/css/main.b0f69371.chunk.css",
+    "main.js": "/uvtracker/static/js/main.cc52ff5b.chunk.js",
+    "main.js.map": "/uvtracker/static/js/main.cc52ff5b.chunk.js.map",
+    "runtime-main.js": "/uvtracker/static/js/runtime-main.f3611a47.js",
+    "runtime-main.js.map": "/uvtracker/static/js/runtime-main.f3611a47.js.map",
+    "static/js/2.86a589cc.chunk.js": "/uvtracker/static/js/2.86a589cc.chunk.js",
+    "static/js/2.86a589cc.chunk.js.map": "/uvtracker/static/js/2.86a589cc.chunk.js.map",
+    "index.html": "/uvtracker/index.html",
+    "precache-manifest.4cb6d990928aac21aff300eca15143f7.js": "/uvtracker/precache-manifest.4cb6d990928aac21aff300eca15143f7.js",
+    "service-worker.js": "/uvtracker/service-worker.js",
+    "static/css/main.b0f69371.chunk.css.map": "/uvtracker/static/css/main.b0f69371.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.7134332c.js",
+    "static/js/runtime-main.f3611a47.js",
     "static/js/2.86a589cc.chunk.js",
     "static/css/main.b0f69371.chunk.css",
     "static/js/main.cc52ff5b.chunk.js"
