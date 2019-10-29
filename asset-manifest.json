@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/uvtracker/static/css/main.b0f69371.chunk.css",
-    "main.js": "/uvtracker/static/js/main.1263a10e.chunk.js",
-    "main.js.map": "/uvtracker/static/js/main.1263a10e.chunk.js.map",
+    "main.js": "/uvtracker/static/js/main.ece943ba.chunk.js",
+    "main.js.map": "/uvtracker/static/js/main.ece943ba.chunk.js.map",
     "runtime-main.js": "/uvtracker/static/js/runtime-main.f3611a47.js",
     "runtime-main.js.map": "/uvtracker/static/js/runtime-main.f3611a47.js.map",
     "static/js/2.de1194ff.chunk.js": "/uvtracker/static/js/2.de1194ff.chunk.js",
     "static/js/2.de1194ff.chunk.js.map": "/uvtracker/static/js/2.de1194ff.chunk.js.map",
     "index.html": "/uvtracker/index.html",
-    "precache-manifest.17dcbb76610d37ee2fea56d68c18934a.js": "/uvtracker/precache-manifest.17dcbb76610d37ee2fea56d68c18934a.js",
+    "precache-manifest.a3b9586977c7f3da98941e66ce292a22.js": "/uvtracker/precache-manifest.a3b9586977c7f3da98941e66ce292a22.js",
     "service-worker.js": "/uvtracker/service-worker.js",
     "static/css/main.b0f69371.chunk.css.map": "/uvtracker/static/css/main.b0f69371.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.f3611a47.js",
     "static/js/2.de1194ff.chunk.js",
     "static/css/main.b0f69371.chunk.css",
-    "static/js/main.1263a10e.chunk.js"
+    "static/js/main.ece943ba.chunk.js"
   ]
 }
