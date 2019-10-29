@@ -85,6 +85,28 @@ class App extends React.Component {
     }
   }
 
+  exposureTime(){
+    const minutes = this.state.safeExposureTime;
+
+   if(minutes === null)
+     return "You can be safely exposed indefinitely.";
+
+     if(minutes < 1)
+      return "You can't be safely exposed.";
+  
+    if(minutes === 1)
+      return "You can be safely exposed for "+minutes+" minute.";
+    
+    if(minutes >= 120){
+      return "You can be safely exposed for more than "+Math.floor(minutes/60)+" hours.";
+    }
+
+    if(minutes > 1)
+      return "You can be safely exposed for "+minutes+" minutes.";
+    
+
+  }
+
   render (){
     return (
       <div className="App" style={{background: 'linear-gradient(to right bottom,'+this.state.bg[0]+','+this.state.bg[1]+')'}}>
@@ -93,7 +115,7 @@ class App extends React.Component {
             <h3>{this.state.dayAbbreviation[this.state.day - 1]}</h3>
             <h2>{Math.floor(this.state.UV)} UV</h2>
             <span>{this.UVIndex()}</span>
-            <span className="exposure">You can be exposed {(this.state.safeExposureTime != null) ? "safely for "+this.state.safeExposureTime+" minutes" : "indefinitely"}.</span> 
+            <span className="exposure">{this.exposureTime()}</span> 
           </div>
         </div>
       </div>
