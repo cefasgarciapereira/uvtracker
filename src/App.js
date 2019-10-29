@@ -14,6 +14,7 @@ class App extends React.Component {
       safeExposureTime: null
     }
     this.UVIndex = this.UVIndex.bind(this);
+    this.exposureTime = this.exposureTime.bind(this);
   }
 
   UNSAFE_componentWillMount(){
@@ -60,10 +61,10 @@ class App extends React.Component {
         })
       })
       .catch(e => {
-        console.log(e)
+        //console.log(e)
         axios({
           method: 'get',
-          url: 'http://api.openweathermap.org/data/2.5/uvi?appid=6bcd0eba4e6df52cd7f4063ec2be86ae&lat=-21.788857&lon=-46.561738',
+          url: 'https://api.openweathermap.org/data/2.5/uvi?appid=6bcd0eba4e6df52cd7f4063ec2be86ae&lat=-21.788857&lon=-46.561738',
         })
           .then(response => {
             //console.log(response)
@@ -104,7 +105,7 @@ class App extends React.Component {
     const minutes = this.state.safeExposureTime;
 
    if(minutes === null)
-     return "You can be safely exposed indefinitely.";
+     return "";
 
      if(minutes < 1)
       return "You can't be safely exposed.";
@@ -118,8 +119,6 @@ class App extends React.Component {
 
     if(minutes > 1)
       return "You can be safely exposed for "+minutes+" minutes.";
-    
-
   }
 
   render (){
