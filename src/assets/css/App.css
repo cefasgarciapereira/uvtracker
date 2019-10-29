@@ -1,0 +1,36 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.data-wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 10;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.data{
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  border: 5px solid white;
+  border-radius: 100%;
+}
+
+.exposure{
+  text-align: center;
+  padding: 0 20px;
+}
