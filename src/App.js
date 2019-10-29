@@ -42,7 +42,7 @@ class App extends React.Component {
       day: day
     })
   }
-  
+
   async componentDidMount(){
     await axios({
       method: 'get',
@@ -64,19 +64,19 @@ class App extends React.Component {
   }
 
   UVIndex(){
-    if(this.state.UV <= 2){
+    if(this.state.UV < 3){
       return this.state.uvIndex[0]
     }
 
-    if(this.state.UV <= 5){
+    if(this.state.UV < 6){
       return this.state.uvIndex[1]
     }
 
-    if(this.state.UV <= 7){
+    if(this.state.UV < 8){
       return this.state.uvIndex[2]
     }
 
-    if(this.state.UV <= 10){
+    if(this.state.UV < 11){
       return this.state.uvIndex[3]
     }
 
@@ -91,7 +91,7 @@ class App extends React.Component {
         <div className="data-wrapper">
           <div className="data">
             <h3>{this.state.dayAbbreviation[this.state.day - 1]}</h3>
-            <h2>{this.state.UV} UV</h2>
+            <h2>{Math.floor(this.state.UV)} UV</h2>
             <span>{this.UVIndex()}</span>
             <span className="exposure">You can be exposed {(this.state.safeExposureTime != null) ? "safely for "+this.state.safeExposureTime+" minutes" : "indefinitely"}.</span> 
           </div>
