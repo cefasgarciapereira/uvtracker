@@ -1,6 +1,8 @@
 # UV Tracker
 This project was developed as a hobby and it aims to monitor the UV index in your location. This is important for people who have a tendency to develop disease under the exposure to sunlight. The project was developed in React.js and obtains information from two APIs [openuv](https://api.openuv.io/) and [openweather](https://api.openweathermap.org) and provides the estimated time that the person can be safely exposed for each index.
 
+I tried to explore simple UI/UX elements, since the project is small and for study purposes, I tried to increment the application but without overdoing it. I thought of a simple and objective application, however, it should be interesting. The minimalist design made the application behave well on small screens and present information clearly. The colors of the layout are changed according to the time of day (morning, afternoon and night) which causes a curious experience.
+
 ## Preview
 ![](./readme_assets/Preview.jpg)
 
