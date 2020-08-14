@@ -2,15 +2,11 @@
 This project was developed as a hobby and it aims to monitor the UV index in your location. This is important for people who have a tendency to develop disease under the exposure to sunlight. The project was developed in React.js and obtains information from two APIs [openuv](https://api.openuv.io/) and [openweather](https://api.openweathermap.org) and provides the estimated time that the person can be safely exposed for each index.
 
 ## Preview
-[](Preview.jpg)
+![](Preview.jpg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
----
-permalink: /index.html
----
 
 ## Available Scripts
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
