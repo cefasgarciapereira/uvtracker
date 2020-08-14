@@ -4,6 +4,8 @@ This project was developed as a hobby and it aims to monitor the UV index in you
 ## Preview
 ![](./readme_assets/Preview.jpg)
 
+Here you can check the [live preview](https://cefasgarciapereira.github.io/uvtracker/)
+
 
 ## Available Scripts
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
